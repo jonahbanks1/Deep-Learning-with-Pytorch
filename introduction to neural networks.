@@ -44,6 +44,54 @@ countinuous = probability.
 
 Activation function: Step (discrete) vs Sigmoid (continuous) .
 
+replaces a classification line with a series of lines (probability zones) based on maginitude of error function. 
+
+QUIZ QUESTION
+The sigmoid function is defined as sigmoid(x) = 1/(1+e-x). 
+If the score is defined by 4x1 + 5x2 - 9 = score, 
+then which of the following points has exactly a 50% probability of being blue or red? (Choose all that are correct.)
+(1,1), (2,4), (5,-5), (-4,5)
+
+MULTICLASS classification and Softmax (activation function).
+all probablities add to one, for each possible class in the model. 
+
+Quiz: Coding Softmax
+And now, your time to shine! Let's code the formula for the Softmax function in Python.
+
+import numpy as np
+
+# Write a function that takes as input a list of numbers, and returns
+# the list of values given by the softmax function.
+def softmax(L):
+    pass
+
+One hot encoding. used to map labels to multi-attribute datasets. a form of data preprocessing for our models.
+
+The model answers the question : 
+ - which answer has the highest likelihood?
+ - yhat = max_likelihood
+ - in a softmax activation function.
+ 
+ A softmax activation function will adjust the curve to optimize maximum likelihood. 
+ Maximum likelihood. this is a function that measures the overall accuracy of the regression line's predictions in a sample. 
+ 
+ Maximizing probabilities: Error function. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
 
 
 
