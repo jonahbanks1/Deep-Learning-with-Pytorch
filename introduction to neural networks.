@@ -1,0 +1,50 @@
+ Deep learning is a field of machine learning utilizing massive neural networks, massive datasets, and accelerated computing on GPUs.
+ 
+ PyTorch is an open-source Python framework from the Facebook AI Research team used for developing deep neural networks. 
+ I like to think of PyTorch as an extension of Numpy that has some convenience classes for defining neural networks and accelerated computations using GPUs
+ 
+ I have learned that all deep learning is regression line/curve fitting and optimizing. 
+ 
+ Take for example a linear classification model with y = 2x1 + x2 - 18=0, as it's equation. 
+ 
+ x1 = Test scores
+ x2 = Grade score
+ 
+ Based on these features alone, our model classifies into accepted(1) or rejected(0)
+ 
+ yhat = the prediction
+ yhat = 1 if y > 0 and 0 if y < 0
+ 
+ 
+what is the score of the student who got 7 in the test and 6 for grades?
+
+(y = 2*7 + 6 - 18) = 2
+
+yhat = 1 if y > 0
+
+therefore this student passed above the regression line.
+
+clear? :) 
+
+Perceptron.
+
+Error Functions.
+
+Gradient Descent.
+- this is an adaptive method by which a function (line/curve) adjusts its orientation to minimize an error function.
+
+QUIZ QUESTION
+Which of the following conditions should be met in order to apply gradient descent? (Check all that apply.)
+- differentiable and continuous.
+
+Discrete vs Continuous predictions.
+
+discrete = yes/no.
+countinuous = probability.
+
+Activation function: Step (discrete) vs Sigmoid (continuous) .
+
+
+
+
+
