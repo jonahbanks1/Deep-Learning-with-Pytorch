@@ -27,6 +27,9 @@ therefore this student passed above the regression line.
 clear? :) 
 
 Perceptron.
+this is a single neutron in a network that attempts to classify the point based on its model.
+
+neural networks collate the results from multiple perceptrons to arrive at it's best guess. 
 
 Error Functions.
 
@@ -75,7 +78,11 @@ The model answers the question :
  A softmax activation function will adjust the curve to optimize maximum likelihood. 
  Maximum likelihood. this is a function that measures the overall accuracy of the regression line's predictions in a sample. 
  
- Maximizing probabilities: Error function. 
+ Maximizing probabilities: Error function. cross entropy. - low for good models and high for bad ones.
+ 
+ 
+ 
+ 
  
  
  
